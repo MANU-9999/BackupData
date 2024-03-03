@@ -1,0 +1,6 @@
+Sleep(1000)
+ControlFocus("Open", "", "Edit1")
+Sleep(1000)
+ControlSetText("Open", "", "Edit1", "source\repos\RamakrishnaGTestAutomation\ArlaFunctionalTests\ArlaFunctionalTests\TestData\TestFiles\ExcelFiles\CollectionImport.xls")
+Sleep(1000)
+ControlClick("Open", "", "Button1")
